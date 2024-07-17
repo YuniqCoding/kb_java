@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/V4/V4.iml" filepath="$PROJECT_DIR$/V4/V4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/V4.main.iml" filepath="$PROJECT_DIR$/.idea/modules/V4.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/V4.test.iml" filepath="$PROJECT_DIR$/.idea/modules/V4.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V5/V5.iml" filepath="$PROJECT_DIR$/V5/V5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/V6/V6.iml" filepath="$PROJECT_DIR$/V6/V6.iml" />
     </modules>
   </component>
 </project>
