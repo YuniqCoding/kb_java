@@ -19,6 +19,7 @@ public class UserDaoImpl implements UserDao{
     // USERS 테이블 관련 SQL 명령어
     private String USER_LIST = "SELECT * FROM users";
     private String USER_GET = "SELECT * FROM users WHERE id = ?";
+//    users 테이블에 해당 내용 가진 행 추가하겠다
     private String USER_INSERT = "INSERT INTO users VALUES (?, ?, ?, ?)";
     private String USER_UPDATE = "UPDATE USERS SET name=?, role=? WHERE id=?";
     private String USER_DELETE = "DELETE FROM users WHERE id=?";
@@ -32,6 +33,7 @@ public class UserDaoImpl implements UserDao{
             pstmt.setString(2, user.getPassword());
             pstmt.setString(3, user.getName());
             pstmt.setString(4, user.getRole());
+
             return pstmt.executeUpdate();
         }
     }
